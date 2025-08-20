@@ -1,0 +1,98 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-08-20 11:53:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">优惠政策 中央 国家</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31428577" target="_blank" class="news-link">国家体育总局：“苏超”单场上座超6万人，带动江苏全域多场景消费380亿元</a> [9] <font color='grey'>- 11时53分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31429349" target="_blank" class="news-link">澎湃回声｜衡南通报“男子疑遭冒领多个国家补贴”：已启动问责程序</a> [10] <font color='grey'>- 11时53分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E5%B7%A1%E8%A7%86%E6%9C%9F%E9%97%B4+%E6%B8%A9%E5%B0%8F%E6%9E%97%E8%90%BD%E9%A9%AC" target="_blank" class="news-link">中央巡视期间 温小林落马</a> [13] <font color='grey'>- 11时53分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">c++ 编程技术 ai 人工智能 科技</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753613" target="_blank" class="news-link">科技股冲击美股，英伟达跌3.5%，道指盘中新高，加密货币跳水，俄乌会晤筹备，金油齐跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时53分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753683" target="_blank" class="news-link">久违的美国科技股大跌，AI和数字币领跌，发生了什么？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时53分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 工业软件 自研</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%89%80%E6%9C%89%E5%8F%97%E9%98%85%E6%AD%A6%E5%99%A8%E8%A3%85%E5%A4%87%E9%83%BD%E6%98%AF%E5%9B%BD%E4%BA%A7%E7%8E%B0%E5%BD%B9%E4%B8%BB%E6%88%98%E8%A3%85%E5%A4%87%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E6%2589%2580%25E6%259C%2589%25E5%258F%2597%25E9%2598%2585%25E6%25AD%25A6%25E5%2599%25A8%25E8%25A3%2585%25E5%25A4%2587%25E9%2583%25BD%25E6%2598%25AF%25E5%259B%25BD%25E4%25BA%25A7%25E7%258E%25B0%25E5%25BD%25B9%25E4%25B8%25BB%25E6%2588%2598%25E8%25A3%2585%25E5%25A4%2587%2523%26dgr%3D0%26pos%3D10%26band_rank%3D10%26c_type%3D31%26filter_type%3Drealtimehot%26realpos%3D10%26cate%3D5001%26display_time%3D1755661968%26pre_seqid%3D17556619688780511931115" target="_blank" class="news-link">所有受阅武器装备都是国产现役主战装备</a> [10] <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>微博 (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%89%80%E6%9C%89%E5%8F%97%E9%98%85%E6%AD%A6%E5%99%A8%E8%A3%85%E5%A4%87%E9%83%BD%E6%98%AF%E5%9B%BD%E4%BA%A7%E7%8E%B0%E5%BD%B9%E4%B8%BB%E6%88%98%E8%A3%85%E5%A4%87%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E6%2589%2580%25E6%259C%2589%25E5%258F%2597%25E9%2598%2585%25E6%25AD%25A6%25E5%2599%25A8%25E8%25A3%2585%25E5%25A4%2587%25E9%2583%25BD%25E6%2598%25AF%25E5%259B%25BD%25E4%25BA%25A7%25E7%258E%25B0%25E5%25BD%25B9%25E4%25B8%25BB%25E6%2588%2598%25E8%25A3%2585%25E5%25A4%2587%2523%26dgr%3D0%26pos%3D10%26band_rank%3D10%26c_type%3D31%26filter_type%3Drealtimehot%26realpos%3D10%26cate%3D5001%26display_time%3D1755661968%26pre_seqid%3D17556619688780511931115" target="_blank" class="news-link">所有受阅武器装备都是国产现役主战装备</a> [10]</li></ul></div>
+    </body>
+    </html>
+    
