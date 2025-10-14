@@ -1,0 +1,98 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-10-14 09:25:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">c++ 编程技术 ai 人工智能 科技</td>
+                <td class="count">7</td>
+                <td class="percentage">2.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757049" target="_blank" class="news-link">TACO交易！科技股力撑美股反弹，博通涨近10%，黄金突破4100关口，历史性逼空助白银新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时25分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757070" target="_blank" class="news-link">高盛大幅上调阿里未来三年资本开支预测至4600亿：云业务国际化被低估，AI支出转化正重塑增长！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时25分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2168170" target="_blank" class="news-link">OpenAI下订博通10GW定制芯片 AI巨头放言“这才是九牛一毛”</a> [7] <font color='grey'>- 09时25分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757107" target="_blank" class="news-link">OpenAI再签重磅协议：计划未来四年与博通合作部署10千兆瓦定制化芯片和网络设备</a> [8] <font color='grey'>- 09时25分</font><br>[抖音] <a href="https://www.douyin.com/hot/2268904" target="_blank" class="news-link">库克抖音官宣iPhone Air中国发售</a> [13] <font color='grey'>- 09时25分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560700840323845686/" target="_blank" class="news-link">闻泰科技资产被荷兰冻结影响几何</a> [18] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560860868943023655/" target="_blank" class="news-link">闻泰科技的“安世之乱”</a> [21] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">软件 程序员 就业 找工作</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757054" target="_blank" class="news-link">A股低开高走，沪指较日低回升近100点，稀土爆发，恒指跌1.5%，金山软件大涨超13%，国债涨，商品跌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时25分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2168152" target="_blank" class="news-link">自主可控！商务部公告首用wps格式 A股软件公司国产替代进度几何？</a> [8] <font color='grey'>- 09时25分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 工业软件 自研</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[抖音] <a href="https://www.douyin.com/hot/2268519" target="_blank" class="news-link">吃下这波上头国产剧安利</a> [27] <font color='grey'>- 09时25分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 4 条)</h3>
+        <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7560700840323845686/" target="_blank" class="news-link">闻泰科技资产被荷兰冻结影响几何</a> [18]</li><li><a href="https://www.toutiao.com/trending/7560860868943023655/" target="_blank" class="news-link">闻泰科技的“安世之乱”</a> [21]</li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3757049" target="_blank" class="news-link">TACO交易！科技股力撑美股反弹，博通涨近10%，黄金突破4100关口，历史性逼空助白银新高</a> <font color='red'><strong>[1]</strong></font></li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2168170" target="_blank" class="news-link">OpenAI下订博通10GW定制芯片 AI巨头放言“这才是九牛一毛”</a> [7]</li></ul></div>
+    </body>
+    </html>
+    
