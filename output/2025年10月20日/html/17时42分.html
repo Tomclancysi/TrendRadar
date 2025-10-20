@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-10-20 17:42:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">c++ 编程技术 ai 人工智能 科技</td>
+                <td class="count">6</td>
+                <td class="percentage">2.35%</td>
+                <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%8F%91%E5%B8%83H2%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">宇树科技发布H2人形机器人</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时42分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=BLG%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6%E5%AE%98%E5%AE%A3bail%E7%A6%BB%E9%98%9F" target="_blank" class="news-link">BLG无畏契约官宣bail离队</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时42分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757473" target="_blank" class="news-link">创业板涨近2%，两市成交1.75万亿，AI算力反弹，恒科指涨3%，国债普跌，“双焦”期货走强</a> [9] <font color='grey'>- 17时42分</font><br>[抖音] <a href="https://www.douyin.com/hot/2276522" target="_blank" class="news-link">以科技创新丈量中国“高度”</a> [9] <font color='grey'>- 17时42分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%8F%91%E5%B8%83H2%E4%BB%BF%E7%94%9F%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">宇树科技发布H2仿生人形机器人</a> [21] <font color='grey'>- 17时42分</font><br>[抖音] <a href="https://www.douyin.com/hot/2276347" target="_blank" class="news-link">宇树科技发布H2仿生机器人</a> [22] <font color='grey'>- 17时42分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">优惠政策 中央 国家</td>
+                <td class="count">4</td>
+                <td class="percentage">1.57%</td>
+                <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%A5%89%E5%8A%9D%E5%B7%B4%E6%8B%89%E5%9C%AD%E7%AD%89%E5%9B%BD%E5%AE%B6%E6%94%BF%E5%BA%9C%E8%AE%A4%E6%B8%85%E5%BD%A2%E5%8A%BF" target="_blank" class="news-link">中方奉劝巴拉圭等国家政府认清形势</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时42分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31811376" target="_blank" class="news-link">中国共产党第二十届中央委员会第四次全体会议在北京开始举行</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时42分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757484" target="_blank" class="news-link">中国共产党第二十届中央委员会第四次全体会议在北京开始举行</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时42分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2173984" target="_blank" class="news-link">国家统计局：9月份70个大中城市中各线城市商品住宅销售价格环比下降</a> [9] <font color='grey'>- 17时42分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 工业软件 自研</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1963539852986377868" target="_blank" class="news-link">遭美国网络攻击的「北京时间」是什么？美国为何会盯上北京时间？会对中国产生哪些实际影响？</a> [11] <font color='grey'>- 17时42分</font></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
